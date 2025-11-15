@@ -10,5 +10,9 @@ namespace WebProyect.Models
 
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
+
+        // File upload properties
+        public string? FileName { get; set; }
+        public string? FilePath { get; set; }
     }
 }
